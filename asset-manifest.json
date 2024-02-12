@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-calc/static/css/main.d6da3459.css",
+    "main.css": "/landing-calc/static/css/main.da240f84.css",
     "main.js": "/landing-calc/static/js/main.56bac31d.js",
     "static/media/girlHD.png": "/landing-calc/static/media/girlHD.0dbe5cd044b01eef21c9.png",
     "static/media/roboto-latin-500-normal.woff2": "/landing-calc/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
@@ -60,11 +60,11 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/landing-calc/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/landing-calc/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/landing-calc/index.html",
-    "main.d6da3459.css.map": "/landing-calc/static/css/main.d6da3459.css.map",
+    "main.da240f84.css.map": "/landing-calc/static/css/main.da240f84.css.map",
     "main.56bac31d.js.map": "/landing-calc/static/js/main.56bac31d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6da3459.css",
+    "static/css/main.da240f84.css",
     "static/js/main.56bac31d.js"
   ]
 }
