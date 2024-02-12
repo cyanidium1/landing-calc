@@ -3,7 +3,7 @@ import TextField from '@mui/material/TextField';
 // import Course from './Course';
 import img from '../images/girlHD.png'
 // import text from '../images/sticker.webp'
-import nickname from '../images/nickname.webp'
+// import nickname from '../images/nickname.webp'
 
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 import Contacts from './Contacts';
