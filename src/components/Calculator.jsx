@@ -39,7 +39,7 @@ const ShippingCalculator = () => {
     return (
         <>
             <div className='relative bg-yellow-50 flex justify-center'>
-                <img className='absolute top-4 right-4' src={nickname} alt="nickname" />
+                <img className='absolute top-4 right-4 md:right-1/3' src={nickname} alt="nickname" />
                 <div className=' min-h-[50vh] w-96' style={{ backgroundImage: `url(${img})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className='absolute bottom-[-2px] left-0 w-screen min-h-[50vh] bg-gradient-to-b from-transparent via-transparent to-pink-300'>
 
