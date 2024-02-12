@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.fancy-text {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    /* Используем шрифт Bebas Neue */
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+    color: #fb7cff;
+    /* Цвет текста - оттенок фиолетового */
+    text-shadow: 2px 2px 1px #6b006d;
+    /* Тень для создания эффекта обводки */
+}

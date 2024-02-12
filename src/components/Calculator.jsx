@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import TextField from '@mui/material/TextField';
 // import Course from './Course';
 import img from '../images/girlHD.png'
-import text from '../images/sticker.webp'
+// import text from '../images/sticker.webp'
 import nickname from '../images/nickname.webp'
 
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 import Contacts from './Contacts';
+import Text from './Text';
 
 const ShippingCalculator = () => {
     const [weight, setWeight] = useState('');
@@ -39,16 +40,28 @@ const ShippingCalculator = () => {
     return (
         <>
             <div className='relative bg-yellow-50 flex justify-center'>
-                <img className=' overflow-hidden absolute top-4 right-4 md:right-1/3' src={nickname} alt="nickname" />
+                {/* <img className=' overflow-hidden absolute top-4 right-4 md:right-1/3' src={nickname} alt="nickname" /> */}
+                <div className='absolute top-4 right-4 md:right-1/3 flex flex-col'>
+                    <Text size={'20'} text={'D'} />
+                    <Text size={'20'} text={'U'} />
+                    <Text size={'20'} text={'N'} />
+                    <Text size={'20'} text={'A'} />
+                    <Text size={'20'} text={'D'} />
+                    <Text size={'20'} text={'R'} />
+                    <Text size={'20'} text={'E'} />
+                    <Text size={'20'} text={'A'} />
+                    <Text size={'20'} text={'M'} />
+                </div>
                 <div className='min-h-[50vh] w-96' style={{ backgroundImage: `url(${img})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className='absolute bottom-[-2px] left-0 w-screen lg:w-[98vw] min-h-[50vh] bg-gradient-to-b from-transparent via-transparent to-pink-300'>
 
                     </div>
                 </div>
-            </div>
+            </div >
             <div className="p-8 pb-2 flex flex-col items-center w-full bg-gradient-to-t from-pink-100 via-pink-200 to-pink-300">
-                <img src={text} width='400px' alt="Калькулятор доставки" />
-                <p className="mb-4 text-center font-medium">Прорахуйте вартість доставки<br />вказавши вагу у віконечку &#x1F60A;
+                {/* <img src={text} width='400px' alt="Калькулятор доставки" /> */}
+                <Text text={'Калькулятор доставки'} />
+                <p className="mb-4 text-center font-medium italic">Прорахуйте вартість доставки<br />вказавши вагу у віконечку <span className='not-italic'>&#x1F60A;</span>
 
                 </p>
                 <form className="space-y-4 flex flex-col max-w-72">
